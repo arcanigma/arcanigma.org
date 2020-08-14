@@ -1,0 +1,29 @@
+baseURL = "https://arcanigma.org/"
+title = "Arcanigma Foundation"
+theme = "vncnt-hugo"
+language = "en"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+
+# [permalinks]
+#   fixed = ":title/"
+#   posts = "posts/:slug/"
+
+[params]
+  author = "Arcanigma Foundation"
+  email = "foundation@arcanigma.org"
+  description = "Landing Page"
+  bio = "Free & Open Source Software"
+  avatar = "img/hydra-logo.png"
+  favicon = "img/favicon.ico"
+
+  [params.contact]
+    github = "https://github.com/arcanigma/"
+    npm = "https://www.npmjs.com/org/arcanigma"
+    slack = "https://arcanigma.slack.com"
