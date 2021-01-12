@@ -11,15 +11,14 @@ relativeURLs = true
 disableRSS = true
 enableRobotsTXT = true
 
-# [permalinks]
-#   fixed = ":title/"
-#   posts = "posts/:slug/"
+[markup]
+  defaultMarkdownHandler = "blackfriday"
 
 [params]
   author = "Arcanigma Foundation"
   email = "foundation@arcanigma.org"
   description = "Landing Page"
-  bio = "Free & Open Source Software"
+  bio = "*Free & Open Source Software*<br />[Copyright and Attributions](https://github.com/arcanigma/arcanigma.org/blob/master/README.md)"
   avatar = "img/hydra-logo.png"
   favicon = "img/favicon.ico"
 
