@@ -18,7 +18,7 @@ enableRobotsTXT = true
   author = "Arcanigma Foundation"
   email = "foundation@arcanigma.org"
   description = "Landing Page"
-  bio = "*Free & Open Source Software*<br />[Copyright and Attributions](https://github.com/arcanigma/arcanigma.org/blob/master/README.md)"
+  bio = "*Free & Open Source Software*<br />501\\(c)(3) Nonprofit Private Foundation<br />[Copyright and Attributions](https://github.com/arcanigma/arcanigma.org/blob/master/README.md)"
   avatar = "img/hydra-logo.png"
   favicon = "img/favicon.ico"
 
