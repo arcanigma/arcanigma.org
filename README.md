@@ -6,9 +6,11 @@ Arcanigma Foundation is a 501(c)(3) nonprofit private foundation.
 
 ## Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/344fe059-bcb9-4bac-8b10-1e418cd2f1de/deploy-status)](https://app.netlify.com/sites/arcanigma/deploys)
+
 ### Copyright
 
-The Arcanigma Foundation website is Copyright (c) 2020-2021 Arcanigma Foundation.
+The Arcanigma Foundation website is Copyright (c) 2020-2022 Arcanigma Foundation.
 
 ### Attributions
 
