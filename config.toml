@@ -1,5 +1,5 @@
 baseURL = "https://arcanigma.org/"
-title = "Arcanigma Foundation"
+title = "Arcanigma Project"
 theme = "vncnt-hugo"
 language = "en"
 
@@ -11,18 +11,19 @@ relativeURLs = true
 disableRSS = true
 enableRobotsTXT = true
 
-[markup]
-  defaultMarkdownHandler = "blackfriday"
+[markup.goldmark.renderer]
+  hardWraps = true
 
 [params]
-  author = "Arcanigma Foundation"
-  email = "foundation@arcanigma.org"
+  author = "Arcanigma Project"
+  email = "contact@arcanigma.org"
   description = "Landing Page"
-  bio = "*Free & Open Source Software*<br />501\\(c)(3) Nonprofit Private Foundation<br />[Copyright and Attributions](https://github.com/arcanigma/arcanigma.org/blob/master/README.md)"
-  avatar = "img/hydra-logo.png"
+  bio = """
+  Free & Open Source Software
+  [Copyright and Attributions](https://github.com/arcanigma/arcanigma.org/blob/master/README.md)"""
+  avatar = "img/hydra-circle.png"
   favicon = "img/favicon.ico"
+  error404 = "There is no such page."
 
   [params.contact]
     github = "https://github.com/arcanigma/"
-    # npm = "https://www.npmjs.com/org/arcanigma"
-    # slack = "https://arcanigma.slack.com"
